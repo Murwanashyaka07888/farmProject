@@ -36,7 +36,7 @@ nav{
     padding-right: 120px;
     background-color: var(--big-color);
 }
-.nav-logo {
+.nav-logo{
     position:absolute;
     left: 40px;
     top: 0;
@@ -46,12 +46,12 @@ nav{
     display: flex;
     flex-direction: row;
 }
-.nav-log i{
+.nav-logo i{
    font-size: 1.5em;
    color: var(--dark-color);
     margin: 1em;
 }
-.nav-log h2 {
+.nav-logo h2 {
     font-size: var(--text-large-font);
     margin: 1.2em;
     font-family:alkatra;
@@ -129,6 +129,72 @@ nav i {
     visibility: hidden;
     transition:all 0.5s ;
 }
+
+
+#sun,#moon{
+    margin: 1.1em;
+}
+.header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+#title {
+    color: var(--dark-color);
+    text-align: left;
+    font-family: 'alkatra';
+    font-size: var(--large-font);
+    margin: 5px;
+    padding: 0;
+    margin: 0;
+}
+#title span{
+    color: #09a868;
+}
+h2 {
+    font-size: var(--larger-font);
+    font-family: 'shadow Into Light', sans-serif;
+    font-weight: 600;
+    padding: 100px 5px 5px 5px;
+    position: relative;
+    text-align: center;
+}
+.header p{
+    text-align: left;
+}
+.header img {
+    height: 340px;
+    padding: 40px;
+    position: relative;
+}
+.header .content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 20px;
+    transform: translate(-5px -40px);
+}
+p {
+    font-family: 'josefin sans',sans-serif;
+    position: relative;
+    margin: 0.2em;
+    line-height: 1.3;
+    text-align: center;
+    color: var(--text-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-widith:880px) {
     nav{
         justify-content: center;
