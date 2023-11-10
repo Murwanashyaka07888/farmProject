@@ -227,13 +227,13 @@ background: var(--big-color);
 .about h2 {
     margin: 0.4em;
 }
-.about .content {
+ .about .content {
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: row;
-}
-.about .content p {
+} 
+ .about .content p {
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -242,13 +242,21 @@ background: var(--big-color);
     font-weight: 600;
 }
 .about img {
-    width:15px ;
+    width:15em;
     margin: 1.3em 2em;
 }
 #special {
     border-radius: 30% 70% 65% 35% / 43% 39% 61% 57%;
 }
-
+.swiper {
+    width: 750px;
+    height: 385px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+ 
 
 
 
